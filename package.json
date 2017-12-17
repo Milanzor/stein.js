@@ -1,0 +1,10 @@
+{
+  "name": "ck.js",
+  "version": "1.0.0",
+  "description": "CodingKorner.js, std classes for JS frontend",
+  "main": "index.js",
+  "repository": "https://github.com/Milanzor/ck.js",
+  "author": "Milan van As (milanvanas@gmail.com)",
+  "license": "MIT",
+  "private": false
+}
