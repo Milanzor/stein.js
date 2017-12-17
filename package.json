@@ -7,7 +7,5 @@
   "author": "Milan van As (milanvanas@gmail.com)",
   "license": "MIT",
   "private": false,
-  "dependencies": {
-    "jquery": "^3.2.1"
-  }
+  "dependencies": {}
 }
