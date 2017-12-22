@@ -5,10 +5,9 @@ My take on some standard classes useful for making a modular, decoupled JS struc
 # Important
 These classes are ES6 (ES2015), so transpile them with Webpack+Babel!
 
-# Tip:
+# Tip
 
-Use my go-to webpack config at https://github.com/Milanzor/ck-webpack
-Or boilerplate at https://github.com/Milanzor/ck-boilerplate
+- Use my boilerplate at https://github.com/Milanzor/ck-boilerplate
 
 # Note
 This is very opinionated and also made while learning JavaScript design patterns, Webpack and ES6+, so...
