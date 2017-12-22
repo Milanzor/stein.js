@@ -8,3 +8,7 @@ These classes are ES6 (ES2015), so transpile them with Webpack+Babel!
 # Tip:
 
 Use my go-to webpack config at https://github.com/Milanzor/ck-webpack
+Or boilerplate at https://github.com/Milanzor/ck-boilerplate
+
+# Note
+This is very opinionated and also made while learning JavaScript design patterns, Webpack and ES6+, so...
