@@ -1,5 +1,5 @@
 const assert = require('assert');
-import { Mediator } from "../lib/ckjs.js";
+import { Mediator } from "../lib/ck.js";
 
 describe('Mediator', () => {
     it('should be an Object', () => {

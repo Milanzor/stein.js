@@ -1,5 +1,5 @@
 const assert = require('assert');
-import { DefaultModule } from "../lib/ckjs.js";
+import { DefaultModule } from "../lib/ck.js";
 
 
 class TestModule extends DefaultModule {

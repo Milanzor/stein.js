@@ -1,11 +1,9 @@
 // webpack.config.js
 
-var webpack = require('webpack');
-var path = require('path');
-var libraryName = 'ckjs';
-var outputFile = libraryName + '.js';
+const libraryName = 'ck';
+const outputFile = libraryName + '.js';
 
-var config = {
+const config = {
     entry: __dirname + '/src/index.js',
     output: {
         path: __dirname + '/lib',
@@ -21,9 +19,6 @@ var config = {
                 exclude: /(node_modules|bower_components)/,
                 use: {
                     loader: 'babel-loader',
-                    options: {
-                        presets: ['@babel/preset-env']
-                    }
                 }
             }
         ]

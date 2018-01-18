@@ -1,5 +1,5 @@
 const assert = require('assert');
-import { Dispatch } from "../lib/ckjs.js";
+import { Dispatch } from "../lib/ck.js";
 
 describe('Dispatch', () => {
     it('should be a function', () => assert.equal(typeof Dispatch, 'function'));
