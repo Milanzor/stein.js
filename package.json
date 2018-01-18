@@ -1,5 +1,5 @@
 {
-  "name": "ck",
+  "name": "@milanzor/ck",
   "version": "1.0.0",
   "description": "ck.js, opinionated classes for JS frontend",
   "main": "lib/ck.js",
