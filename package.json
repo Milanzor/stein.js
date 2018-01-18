@@ -1,5 +1,5 @@
 {
-  "name": "@milanzor/stein",
+  "name": "stein",
   "version": "1.0.0",
   "description": "Stein, rock-solid opinionated classes for JS frontend",
   "main": "lib/stein.js",
