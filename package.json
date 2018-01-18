@@ -1,9 +1,9 @@
 {
-  "name": "@milanzor/ck",
+  "name": "@milanzor/stein",
   "version": "1.0.0",
-  "description": "ck.js, opinionated classes for JS frontend",
-  "main": "lib/ck.js",
-  "repository": "https://github.com/Milanzor/ck.js",
+  "description": "Stein, rock-solid opinionated classes for JS frontend",
+  "main": "lib/stein.js",
+  "repository": "https://github.com/Milanzor/stein.js",
   "author": "Milan van As (milanvanas@gmail.com)",
   "license": "MIT",
   "private": false,

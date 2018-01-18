@@ -1,6 +1,6 @@
 // webpack.config.js
 
-const libraryName = 'ck';
+const libraryName = 'stein';
 const outputFile = libraryName + '.js';
 
 const config = {
