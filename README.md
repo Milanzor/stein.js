@@ -3,7 +3,7 @@ My take on some standard classes useful for making a modular, decoupled JS struc
 
 # Tip
 
-- Use my boilerplate at https://github.com/Milanzor/ck-boilerplate
+- Use my boilerplate at https://github.com/Milanzor/stein-boilerplate/
 
 # Note
 This is very opinionated and also made while learning JavaScript design patterns, Webpack and ES6+, so...
