@@ -1,8 +1,8 @@
 {
     "name": "stein",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Stein, rock-solid opinionated classes for JS frontend",
-    "main": "lib/stein.js",
+    "main": "lib/stein.min.js",
     "repository": "https://github.com/Milanzor/stein.js",
     "author": "Milan van As (milanvanas@gmail.com)",
     "license": "MIT",
@@ -21,7 +21,7 @@
     },
     "test": "yarn test",
     "scripts": {
-        "build": "rimraf lib && WEBPACK_ENV=build webpack -p && yarn test",
+        "build": "rimraf lib && webpack && yarn test",
         "test": "mocha --require babel-register --colors ./test/*.test.js"
     }
 }

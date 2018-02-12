@@ -1,14 +1,13 @@
-// webpack.config.js
+const webpack = require('webpack');
 
-const libraryName = 'stein';
-const outputFile = libraryName + '.js';
+const libName = 'stein';
 
 const config = {
-    entry: __dirname + '/src/index.js',
+
     output: {
         path: __dirname + '/lib',
-        filename: outputFile,
-        library: libraryName,
+        filename: '[name].js',
+        library: libName,
         libraryTarget: 'umd',
         umdNamedDefine: true
     },
@@ -22,7 +21,19 @@ const config = {
                 }
             }
         ]
-    }
+    },
+    plugins: [
+        new webpack.optimize.UglifyJsPlugin({
+            include: /\.min\.js$/,
+            minimize: true
+        })
+    ],
 };
+
+
+// Set the entry points
+config.entry = {};
+config.entry[libName] = __dirname + '/src/index.js';
+config.entry[`${libName}.min`] = __dirname + '/src/index.js';
 
 module.exports = config;
