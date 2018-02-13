@@ -1,13 +1,15 @@
 const webpack = require('webpack');
 
-const libName = 'stein';
+module.exports = {
 
-const config = {
-
+    entry: {p
+        'stein': __dirname + '/src/index.js',
+        'stein.min': __dirname + '/src/index.js',
+    },
     output: {
         path: __dirname + '/lib',
         filename: '[name].js',
-        library: libName,
+        library: 'stein',
         libraryTarget: 'umd',
         umdNamedDefine: true
     },
@@ -36,11 +38,3 @@ const config = {
         })
     ],
 };
-
-
-// Set the entry points
-config.entry = {};
-config.entry[libName] = __dirname + '/src/index.js';
-config.entry[`${libName}.min`] = __dirname + '/src/index.js';
-
-module.exports = config;
