@@ -16,7 +16,7 @@ module.exports = {
     module: {
         rules: [
             {
-                test: require.resolve('./src/Router'),
+                test: require.resolve('./src/Dispatcher'),
                 use: {
                     loader: 'expose-loader',
                     options: 'Router',

@@ -7,5 +7,4 @@
 
 export {Mediator} from './Mediator';
 export {Dispatch} from './Dispatcher';
-export {Router} from './Router';
 export {DefaultModule} from './DefaultModule';
