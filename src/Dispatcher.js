@@ -1,5 +1,5 @@
-/**
- * Authored by Milan van As (CodingKorner)
+/*!
+ * Authored by Milan van As
  * Released under the MIT license
  *
  * Dispatcher

@@ -1,5 +1,5 @@
-/**
- * Authored by Milan van As (CodingKorner)
+/*!
+ * Authored by Milan van As
  * Released under the MIT license
  *
  * Mediator pattern taken from https://gist.github.com/TCotton/d85e879fdbf856ddae3511652f9260f0
@@ -19,9 +19,7 @@ export const Mediator = (() => {
 
         // Multiple events
         if (Array.isArray(event)) {
-            event.forEach((singleStore) => {
-                subscribe(singleStore, fn);
-            });
+            event.map(singleStore => subscribe(singleStore, fn));
         } else {
 
             // Single event
