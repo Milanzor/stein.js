@@ -2,7 +2,7 @@ const webpack = require('webpack');
 
 module.exports = {
 
-    entry: {p
+    entry: {
         'stein': __dirname + '/src/index.js',
         'stein.min': __dirname + '/src/index.js',
     },
